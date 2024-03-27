@@ -1,4 +1,4 @@
 # Recipe to install redis
-dnf_package 'redis' do
+package 'redis' do
   action :install
 end
